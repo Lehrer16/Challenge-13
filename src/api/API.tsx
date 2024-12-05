@@ -1,3 +1,4 @@
+
 const searchGithub = async () => {
   try {
     const start = Math.floor(Math.random() * 100000000) + 1;
@@ -27,7 +28,7 @@ const searchGithubUser = async (username: string) => {
   try {
     const response = await fetch(`https://api.github.com/users/${username}`, {
       headers: {
-        Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
+        Authorization: `Bearer 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`,
       },
     });
     const data = await response.json();
