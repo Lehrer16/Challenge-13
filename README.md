@@ -8,3 +8,4 @@ npm run build
 
 npm run dev
 
+Open the client and begin to search through candidates.
